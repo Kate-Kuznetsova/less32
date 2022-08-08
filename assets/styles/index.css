@@ -1,0 +1,59 @@
+html,body {
+    height: 100%;
+}
+body {
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#timeOut{
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    font-size: 80px;
+
+}
+
+#inputTime{
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    font-size: 80px;
+}
+
+#hoursInput, #minutesInput, #secondsInput{
+    background: none;
+    border: none;
+    box-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    color: #ffff;
+    outline: none;
+}
+
+#hoursInput::placeholder {
+    color: #daf6ff;
+  }
+
+#minutesInput::placeholder {
+    color: #daf6ff;
+  }
+
+  #secondsInput::placeholder {
+    color: #daf6ff;
+  }
+
+#hoursInput:active{
+    -webkit-appearance: none;
+}
